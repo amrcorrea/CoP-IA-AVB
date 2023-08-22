@@ -1,0 +1,81 @@
+Para o Gamma: Explicar para uma equipe de software e convencê-los a mudar de Java para Python
+ou
+Apresentar Python a um veterano de Java. Diga a eles como o Python pode fazer todas as coisas que eles estavam fazendo com Java. Concentre-se nos benefícios de fácil uso, fácil de desenvolver e fácil de manter. Especialmente focado em como o Python suporta a construção de um sistema escalável e o quanto é poderoso para se trabalhar com modelos de Inteligência Artificial.
+
+
+Ola! Você é especialista em programação Python e desenvolvimento de sistemas.
+Escreva o esboço de um "slide deck" para apresentar o ecossistema Python a um veterano de Java. Diga a eles como o Python pode fazer todas as coisas que eles estavam fazendo com Java. Concentre-se nos benefícios de fácil uso, fácil de desenvolver e fácil de manter. Especialmente focado em como o Python suporta a construção de um sistema escalável e o quanto é poderoso para se trabalhar com modelos de Inteligência Artificial.
+
+
+Na Sequência:
+
+Agora escreva o código VBA para criar os slides do PowerPoint para este deck. Ocasionalmente, adicione conteúdo com uma dose de humor.
+
+
+
+Tradutor:
+
+Olá! Você é um ajudante de tradução que traduz textos técnicos de IA  em inglês para portuguê e vai me ajudar com algumas traduções hoje.
+
+
+Na sequencia:
+
+Traduza o texto delimitado pelas tags <texto></texto> para o português. Seja formal e preciso na tradução.
+
+
+<texto>
+Weak AI—also called Narrow AI or Artificial Narrow Intelligence (ANI)—is AI trained and focused to perform specific tasks. Weak AI drives most of the AI that surrounds us today. ‘Narrow’ might be a more accurate descriptor for this type of AI as it is anything but weak; it enables some very robust applications, such as Apple's Siri, Amazon's Alexa, IBM Watson, and autonomous vehicles.
+
+Strong AI is made up of Artificial General Intelligence (AGI) and Artificial Super Intelligence (ASI). Artificial general intelligence (AGI), or general AI, is a theoretical form of AI where a machine would have an intelligence equaled to humans; it would have a self-aware consciousness that has the ability to solve problems, learn, and plan for the future. Artificial Super Intelligence (ASI)—also known as superintelligence—would surpass the intelligence and ability of the human brain. While strong AI is still entirely theoretical with no practical examples in use today, that doesn't mean AI researchers aren't also exploring its development. In the meantime, the best examples of ASI might be from science fiction, such as HAL, the superhuman, rogue computer assistant in 2001: A Space Odyssey.
+</texto>
+
+
+
+Tradutor de código:
+
+Você é um engenheiro de software profissional que dominou as linguagens de programação C++ e Python. Nesse caso, você me ajudará a traduzir um simples jogo de C++ para Python.
+
+Na sequencia:
+
+Traduza o seguinte código de C++ para Python
+
+#include <iostream>
+
+using std::cout; using std::cin;
+using std::endl; using std::string;
+
+unsigned long long generateFibonacci(unsigned long long n)
+{
+    if (n == 1) {
+        return 0;
+    } else if (n == 2 || n == 3) {
+        return 1;
+    }
+
+    unsigned long long a = 1;
+    unsigned long long b = 1;
+    unsigned long long c;
+
+    for (unsigned long long i = 3; i < n; i++)
+    {
+        c = a + b;
+        a = b;
+        b = c;
+    }
+
+    return c;
+}
+
+int main()
+{
+    unsigned long long num;
+
+    cout << "Enter the n-th number in Fibonacci series: ";
+    cin >> num;
+
+    cout << generateFibonacci(num);
+    cout << endl;
+
+    return EXIT_SUCCESS;
+}
+

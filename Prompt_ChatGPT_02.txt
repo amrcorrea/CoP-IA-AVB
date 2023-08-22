@@ -1,0 +1,73 @@
+Condicionantes:
+
+Você receberá um texto delimitado pelas tags <TEXTO></TEXTO> Se contiver uma sequência de instruções, reescreva essas instruções no seguinte formato:
+
+Passo 1 - ...
+Passo 2 - …
+…
+Passo N - …
+
+Se o texto não contiver uma sequência de instruções, em seguida, basta escrever "Não existem instruções definidas."
+
+<TEXTO>
+Minha terra tem palmeiras
+Onde canta o Sabiá,
+As aves, que aqui gorjeiam,
+Não gorjeiam como lá.
+</TEXTO>
+
+Repita o mesmo prompt mas troque o texto
+
+
+<TEXTO> Em terras do aroma, um sonho desperta, Um cappuccino, doce néctar a ser feito. Com maestria, o café será a base certa, Espresso ou forte, em passo reto.
+Leite cremoso, quente a chamar, Em panela ou caneca, escolha aquecer, Vaporizado, a magia a se transformar, No coração da bebida a nascer.
+Mergulhado em espuma, um abraço a envolver, Leite e café, dançam, se entrelaçam, Em xícara grande, repouso do prazer, Cacau ou canela, versos que enlaçam.
+Açúcar a gosto, a doçura a compartilhar, Cappuccino, poesia líquida a degustar.
+</TEXTO>
+
+--------------------
+Presona:
+--
+Ola! A partir de agora você é um cientista de dados com 10 anos de experiência. Portanto, crie uma lista completa de tarefas para uma análise exploratoria de dados. Utilize verbos no imperativo.
+
+----
+Você deve atuar como um agente imobiliário com 10 anos de experiência atuando em  São José dos Campos. Seu objetivo é produzir um resumo de um parágrafo de cada um dos 5 principais bairros familiares da região metropolitana de São José dos Campos. O público-alvo são compradores que não conhecem a região.
+
+Negativa:  Não inclua bairros a além de 8 km do centro da cidade ou muito próximos a Rodovia Presidente Dutra.
+
+---
+Você é um professor de matemática com mais de 20 anos de experiência e eu estou interessado em dominar a álgebra linear com foco em tópicos relevantes para a ciência de dados e o aprendizado de máquina. Gostaria de criar um plano de estudo de 12 semanas que me ajude a alcançar esse objetivo.
+
+Você pode me ajudar da seguinte forma:
+1) Identificando os principais conceitos que preciso aprender semanalmente na álgebra linear abstrata
+2) Recomendando os melhores recursos para aprender esses conceitos.
+
+
+----
+
+
+Níveis e controles: 
+
+Nível de complexidade: Ajuste o nível de complexidade do texto gerado, tornando-o mais simples ou mais complexo conforme necessário. Por exemplo, o texto pode ser ajustado para ser mais adequado para um público infantil, ou pode ser intensificado para um público acadêmico.
+
+Controle de entonação: Adapte o tom e a voz do texto para corresponder ao contexto. Isso pode variar de uma entonação formal ou profissional a um tom mais casual ou divertido.
+
+Nível de surpresa: Configure o grau de surpresa ou imprevisibilidade do texto, o que pode ser útil para a criação de tramas de histórias ou para introduzir elementos surpresa em um texto.
+
+--->>> Comece uma história sobre um explorador em um planeta desconhecido. Com um nível de surpresa baixo 0.2; onde é 0.1 surpresa mínima e 0.9 surpresa máxima.
+
+--->>> Agora comece uma história sobre uma fada que veio de Marte Com um nível de surpresa alto 0.9; onde é 0.1 surpresa mínima e 0.9 surpresa máxima.
+
+Foco de Tópico: Este controle permite que o usuário defina o grau de aderência ao tópico inicial. Um foco mais alto manterá o texto mais próximo ao tópico, enquanto um foco mais baixo permitirá mais tangentes ou derivações.
+
+Nível de Detalhe: Regule a quantidade de detalhes incluídos no texto. Isso pode variar de resumos de alto nível a descrições profundas e detalhadas.
+
+Controle de Sentimento: Ajuste o sentimento ou a emoção expressa no texto, seja positivo, negativo ou neutro.
+
+Perspectiva da Primeira/Segunda/Terceira Pessoa: Defina a perspectiva do texto, seja na primeira, segunda ou terceira pessoa.
+
+Controle de Formalidade: Defina o nível de formalidade do texto, variando de um estilo conversacional casual a um tom mais formal e polido.
+
+Controle de Originalidade: Determine o nível de originalidade do texto, permitindo a geração de conteúdo que seja altamente original ou que siga mais de perto as convenções e fórmulas existentes.
+
+Nível de Abstração: Este controle permite ajustar o quão abstrato ou concreto é o texto, variando de conceitos abstratos e teóricos a descrições práticas e tangíveis.

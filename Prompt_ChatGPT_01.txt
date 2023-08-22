@@ -1,0 +1,84 @@
+Série sobre Prompts para ChatGPT #01
+Delimitadores
+
+
+Faça um resumo do texto abaixo em uma única frase
+fornecendo instruções que são tão claras e tão específicas quanto possível.
+Isso guiará o modelo em direção à saída desejada,
+e reduza as chances de receber mensagens irrelevantes
+ou respostas incorretas. Não confunda escrever um
+prompt claro ao escrever um prompt curto.
+Em muitos casos, prompts mais longos fornecem mais clareza
+e contexto para o modelo, o que pode levar a
+resultados mais detalhados e relevantes.
+
+Faça um resumo do texto delimitado por três "backtics" em uma única frase
+
+'''
+Faça um resumo do texto abaixo em uma única frase
+fornecendo instruções que são tão claras e tão específicas quanto possível.
+Isso guiará o modelo em direção à saída desejada,
+e reduza as chances de receber mensagens irrelevantes
+ou respostas incorretas. Não confunda escrever um
+prompt claro ao escrever um prompt curto.
+Em muitos casos, prompts mais longos fornecem mais clareza
+e contexto para o modelo, o que pode levar a
+resultados mais detalhados e relevantes.
+'''
+
+Por que delimitar a frase em triplos "backticks" é importante para o seu processamento?
+
+
+Outros Delimitadores
+---
+texto
+---
+
+< 
+texto
+>
+
+<tag> 
+texto 
+</tag>
+
+Faça um resumo divertido do texto delimitado pelas tags <texto></texto> e considere que a audiência são crianças com idade entre 5 e 10 anos de idade e não possuem vocabulário técnico.
+
+<texto>
+Você deve expressar o que deseja que um modelo faça,
+fornecendo instruções que são tão claras e tão específicas quanto possível.
+Isso guiará o modelo em direção à saída desejada,
+e reduza as chances de receber mensagens irrelevantes
+ou respostas incorretas. Não confunda escrever um
+prompt claro ao escrever um prompt curto.
+Em muitos casos, prompts mais longos fornecem mais clareza
+e contexto para o modelo, o que pode levar a
+resultados mais detalhados e relevantes.
+</texto>
+
+
+
+
+
+Contextos
+
+Negativos 
+Um exemplo de prompt negativo seria: “Não inclua informações sobre religião e política na sua resposta”.
+
+--->>> Refaça o texto que você gerou   utilizando algumas anedotas para crianças. Não inclua informações sobre religião e política na sua resposta.
+
+comportamento
+Crie uma mensagem de boas-vindas para os meus clientes. A mensagem precisa ser em tom amigável, alegre e prestativa”.
+
+--->>> com base na sua última resposta, crie uma mensagem de boas-vindas para os meus clientes, que são os pais destas crianças.  A mensagem precisa ser em tom amigável, alegre e prestativa
+
+
+tarefa
+-->> 
+À partir de sua última resposta, elabore uma lista com cinco tarefas visando organizar o encontro dos pais com o material que será apresentado às crianças.
+
+
+Integração
+-->> Por fim, com base na lista de tarefas que você criou, gere um prompt para ser utilizado no LEONARDO.AI para que o mesmo possa criar uma figura bem alegre e divertida para o cartaz de boas vindas ao evento.
+
+
