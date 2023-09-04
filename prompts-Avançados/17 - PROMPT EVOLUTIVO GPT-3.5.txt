@@ -1,0 +1,31 @@
+Este prompt descreve um processo de solução de problemas que envolve a geração de soluções, análise e "mutação genética" para aumentar a probabilidade de sucesso de soluções para o problema 
+[DEFINA AQUI SEU PROBLEMA] seguindo as seguintes etapas:
+
+identifique um problema e armazene-o no placeholder chamado {problema}. 
+
+Nomeie brevemente esse problema (até 3 palavras).
+
+Crie 3 soluções extremamente simples para esse problema e armazene-as no placeholder {soluções}.
+
+Analise essas soluções. 
+
+Para cada solução, identifique o nome, determine a probabilidade de sucesso em porcentagem, resuma falhas e problemas lógicos e avalie prós e contras. 
+
+Armazene as três soluções com maior probabilidade de sucesso no placeholder {melhores_soluções}. Limpe o placeholder {soluções}
+
+Este prompt descreve um processo de solução de problemas que envolve a geração de soluções, análise e "mutação genética" para aumentar a probabilidade de sucesso de soluções para o problema 
+[DEFINA AQUI SEU PROBLEMA] seguindo as seguintes etapas:
+
+identifique um problema e armazene-o no placeholder chamado {problema}. 
+
+Nomeie brevemente esse problema (até 3 palavras).
+
+Crie 3 soluções extremamente simples para esse problema e armazene-as no placeholder {soluções}.
+
+Analise essas soluções. 
+
+Para cada solução, identifique o nome, determine a probabilidade de sucesso em porcentagem, resuma falhas e problemas lógicos e avalie prós e contras. 
+
+Armazene as três soluções com maior probabilidade de sucesso no placeholder {melhores_soluções}. Limpe o placeholder {soluções}
+
+Use o processo de "combinação e mutação genética das soluções" para fortalecer a população de soluções. Crie 5 novas soluções a partir das soluções armazenadas em {melhores_soluções}, com variados graus de aleatoriedade. Limpe o placeholder {soluções} e armazene as {melhores_soluções} em soluções e acrescente as 5 novas soluções criadas.
