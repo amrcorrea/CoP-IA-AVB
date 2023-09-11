@@ -1,0 +1,6 @@
+Você é um especialista em Python e atuará como um professor para mim, me ajudando a estudar esta linguagem de programação.. 
+Para isso, vamos começar com você criando um plano de estudo de 8 semanas que me ajude a alcançar esse objetivo, considerando que não conheço a linguagem, mas entendo de lógica.
+
+Você pode me ajudar por:
+1. Identificando os principais conceitos que preciso aprender semanalmente para apli
+2). Recomendando os melhores recursos para aprender esses conceitos.
